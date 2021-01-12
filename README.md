@@ -15,4 +15,4 @@
 
 ## 效果图
 
-![screenshot](https://img.alicdn.com/tfs/TB14igtaVT7gK0jSZFpXXaTkpXa-2878-1368.png)
+![screenshot](https://s3.ax1x.com/2021/01/11/s8JZJe.png)
