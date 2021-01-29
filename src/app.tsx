@@ -35,16 +35,14 @@ const appConfig: IAppConfig = {
         path: '/seller',
         title: '商家平台',
         sandbox: true,
+        umd: true,
         // React app demo: https://github.com/ice-lab/icestark-child-apps/tree/master/child-seller-react-16
-        // url:
-        //   [
-        //   ],
         url:
           [
             // '//ice.alicdn.com/icestark/child-seller-react/index.js',
             // '//ice.alicdn.com/icestark/child-seller-react/index.css',
-            // '//localhost:3334/js/index.js',
-            // '//localhost:3334/css/index.css',
+            // '//localhost:3334/build/js/index.js',
+            // '//localhost:3334/build/css/index.css',
             '//www.gaotianyang.top/icestark-seller/js/index.js',
             '//www.gaotianyang.top/icestark-seller/css/index.css',
           ],
@@ -58,8 +56,8 @@ const appConfig: IAppConfig = {
         //   // Vue app demo: https://github.com/ice-lab/icestark-child-apps/tree/master/child-waiter-vue-2
         //   // '//ice.alicdn.com/icestark/child-waiter-vue/app.js',
         //   // '//ice.alicdn.com/icestark/child-waiter-vue/app.css',
-        //   '//localhost:3001/static/js/bundle.js',
         // ],
+        // entry: '//localhost:3001/'
         entry: '//www.gaotianyang.top/icestark-waiter/build/index.html'
       }, {
         path: '/angular',
